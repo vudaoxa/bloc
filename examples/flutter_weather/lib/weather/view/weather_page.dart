@@ -45,6 +45,7 @@ class _WeatherViewState extends State<WeatherView> {
         ],
       ),
       body: Center(
+        //todo vdx consume here
         child: BlocConsumer<WeatherCubit, WeatherState>(
           listener: (context, state) {
             if (state.status.isSuccess) {

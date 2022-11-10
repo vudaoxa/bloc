@@ -1,5 +1,5 @@
 part of 'weather_cubit.dart';
-
+//todo vdx check this vs @freezed
 enum WeatherStatus { initial, loading, success, failure }
 
 extension WeatherStatusX on WeatherStatus {
